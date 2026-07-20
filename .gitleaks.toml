@@ -1,0 +1,17 @@
+title = "gitleaks config for NebInfra public repos"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Allowlist for cosign public keys, test fixtures, and sealed pack artifacts"
+paths = [
+  "cosign-keys/.*\\.pub$",
+  "test/fixtures/.*",
+  ".*-prod\\.pub$",
+  # Sealed pack artifacts: AES-256-GCM ciphertext plus cosign signature
+  # bundles. High-entropy by construction; they contain no plaintext
+  # secrets, and entropy rules would false-positive on them.
+  "packs/.*\\.nebpack$",
+  "packs/.*\\.nebpack\\.bundle$",
+]
