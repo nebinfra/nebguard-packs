@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T16:11:33Z",
+  "generatedAt": "2026-07-26T07:44:35Z",
   "packs": [
     {
       "id": "agent-session-core",
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -26,6 +26,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.1.nebpack",
           "sha256": "4f48688aef7a4c3670f9541dbb51afa4d2018195450410f11ff7511b9ee80d96",
           "size": 63892
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/agent-session-core/agent-session-core-0.2.2.nebpack",
+          "sha256": "7695243b25387c6ed39de81e3382f4a926c95fd062e02cee1c4bc0630b1442dd",
+          "size": 65849
         }
       ]
     },
@@ -34,7 +40,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -53,6 +59,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.1.nebpack",
           "sha256": "176980f3e14fae806d8c17036ed15b0b2b8df2e0796ca41f84ed9ac1d3e7fb3a",
           "size": 89493
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/ai-governance/ai-governance-0.2.3.nebpack",
+          "sha256": "c9dbca599f3f89504004aebf0f52b744095ba179fd047360de699c6986695d63",
+          "size": 91385
         }
       ]
     },
@@ -388,7 +400,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.1",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -407,6 +419,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.1.nebpack",
           "sha256": "47fe9ddd5d55ecc9c6eef20e7baa7d754c178ea5bbba31fd95dd9780a627bd7d",
           "size": 72756
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/engineering-practices/engineering-practices-0.2.3.nebpack",
+          "sha256": "0fda40901b13389cff6b408b5041ed2180c74918524da041d6b98a4c383e8509",
+          "size": 73561
         }
       ]
     },
@@ -442,7 +460,7 @@
       "sku": "gitops-argocd",
       "description": "GitOps and ArgoCD delivery safety: declarative enforcement and sync-lifecycle guards.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -461,6 +479,12 @@
           "path": "packs/gitops-argocd/gitops-argocd-0.2.1.nebpack",
           "sha256": "9b3ad40a7fb74eb322cc1e715cf771187358466201e7ca1e1a4565d84248bbaa",
           "size": 27548
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/gitops-argocd/gitops-argocd-0.2.2.nebpack",
+          "sha256": "4584a4503c6bbd43451c31e66072c11afaee4ed4f9a9e82bd0e6c461b9625606",
+          "size": 29693
         }
       ]
     },
