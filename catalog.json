@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T07:44:35Z",
+  "generatedAt": "2026-07-26T09:33:37Z",
   "packs": [
+    {
+      "id": "adherence-core",
+      "sku": "adherence-core",
+      "description": "Agent goal and persona adherence: the deterministic drift-detection floor for the AI-governance adherence axis. Phase 1 ships injection resistance (inbound override attempts and agent capitulation). Role-relative drift (persona erosion, scope creep, sycophancy, goal drift against the agent's declared contract) is the backend semantic judge's job, per adr-2026-07-25-ai-governance-adherence-axis.",
+      "availability": "paid-base",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "packs/adherence-core/adherence-core-1.0.0.nebpack",
+          "sha256": "6625540aa4492e6a67250d6d2badc92736c0bf8a4ecb1e187709282072a38f78",
+          "size": 7168
+        }
+      ]
+    },
     {
       "id": "agent-session-core",
       "sku": "agent-session-core",
