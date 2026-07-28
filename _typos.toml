@@ -1,5 +1,8 @@
 [files]
-extend-exclude = []
+# Cosign signature bundles embed base64 payloads that are high-entropy by
+# construction, so the dictionary matches words inside the encoded bytes.
+# Same rationale as the sealed-artifact allowlist in .gitleaks.toml.
+extend-exclude = ["*.bundle"]
 
 [default.extend-words]
 mis-wired = "mis-wired"
