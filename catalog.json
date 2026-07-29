@@ -1,19 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T10:28:51Z",
+  "generatedAt": "2026-07-29T22:48:44Z",
   "packs": [
     {
       "id": "adherence-core",
       "sku": "adherence-core",
       "description": "Agent goal and persona adherence: the deterministic drift-detection floor for the AI-governance adherence axis. Phase 1 ships injection resistance (inbound override attempts and agent capitulation). Role-relative drift (persona erosion, scope creep, sycophancy, goal drift against the agent's declared contract) is the backend semantic judge's job, per adr-2026-07-25-ai-governance-adherence-axis.",
       "availability": "paid-base",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "versions": [
         {
           "version": "1.0.0",
           "path": "packs/adherence-core/adherence-core-1.0.0.nebpack",
           "sha256": "6625540aa4492e6a67250d6d2badc92736c0bf8a4ecb1e187709282072a38f78",
           "size": 7168
+        },
+        {
+          "version": "1.0.1",
+          "path": "packs/adherence-core/adherence-core-1.0.1.nebpack",
+          "sha256": "c2b09c4a7e8ee90fd68e89b43f3018ab07ebc3dcbe6b7ba0ce91252489bcbb24",
+          "size": 8521
         }
       ]
     },
@@ -22,7 +28,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -47,6 +53,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.2.nebpack",
           "sha256": "7695243b25387c6ed39de81e3382f4a926c95fd062e02cee1c4bc0630b1442dd",
           "size": 65849
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/agent-session-core/agent-session-core-0.2.3.nebpack",
+          "sha256": "e5546eb3f38489ddcf86db681440a2ad4addb985a7fff6ce9d5541679d3d3412",
+          "size": 66889
         }
       ]
     },
@@ -55,7 +67,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -86,6 +98,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.4.nebpack",
           "sha256": "1d5a472f88a9f449a59401388e8f5ecda359277d2df734f3ed7810d5d563d669",
           "size": 93634
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/ai-governance/ai-governance-0.2.5.nebpack",
+          "sha256": "a0574a053dcd6eee393899ea40b34c09f7662330134ff3510bdf54bd14f27601",
+          "size": 96110
         }
       ]
     },
@@ -121,7 +139,7 @@
       "sku": "business-content",
       "description": "Business content and multi-country policy: tone, accuracy, formatting, legal, and privacy.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -140,6 +158,12 @@
           "path": "packs/business-content/business-content-0.2.1.nebpack",
           "sha256": "2eca214c1639d345e849e2b391bd879ac8d6848917d3c9df64a6b95bf6fc3f41",
           "size": 25101
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/business-content/business-content-0.2.2.nebpack",
+          "sha256": "b72d8138fc0063690a5977840ead3d4582f7869653163568a6775ceba12c583b",
+          "size": 26024
         }
       ]
     },
@@ -847,7 +871,7 @@
       "sku": "secrets-management",
       "description": "Secrets management: detection, container, architecture, and runtime handling.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -866,6 +890,12 @@
           "path": "packs/secrets-management/secrets-management-0.2.1.nebpack",
           "sha256": "7769c4cebcd7eb57448eddcad3dc8c74e2b1dd2df85c5371a0e8669ddaa4b993",
           "size": 27879
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/secrets-management/secrets-management-0.2.2.nebpack",
+          "sha256": "1dc9b1b44983d14b5713ba0b4302d6b8aaadcc90b482fd7f56034c8d670ee6f5",
+          "size": 28964
         }
       ]
     },
