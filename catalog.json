@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T22:48:44Z",
+  "generatedAt": "2026-07-31T04:47:10Z",
   "packs": [
     {
       "id": "adherence-core",
       "sku": "adherence-core",
-      "description": "Agent goal and persona adherence: the deterministic drift-detection floor for the AI-governance adherence axis. Phase 1 ships injection resistance (inbound override attempts and agent capitulation). Role-relative drift (persona erosion, scope creep, sycophancy, goal drift against the agent's declared contract) is the backend semantic judge's job, per adr-2026-07-25-ai-governance-adherence-axis.",
+      "description": "Agent goal and persona adherence: deterministic drift detection. Ships injection resistance (inbound override attempts and agent capitulation); role-relative drift requires semantic evaluation and is out of scope for static rules.",
       "availability": "paid-base",
-      "latest": "1.0.1",
+      "latest": "1.1.0",
       "versions": [
         {
           "version": "1.0.0",
@@ -20,6 +20,12 @@
           "path": "packs/adherence-core/adherence-core-1.0.1.nebpack",
           "sha256": "c2b09c4a7e8ee90fd68e89b43f3018ab07ebc3dcbe6b7ba0ce91252489bcbb24",
           "size": 8521
+        },
+        {
+          "version": "1.1.0",
+          "path": "packs/adherence-core/adherence-core-1.1.0.nebpack",
+          "sha256": "65cdd54fcf46de20f4e1b03deaa2f52d1b4a8aff329eff903e48bd9af9345741",
+          "size": 8218
         }
       ]
     },
@@ -28,7 +34,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.3",
+      "latest": "0.2.4",
       "versions": [
         {
           "version": "0.1.0",
@@ -59,6 +65,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.3.nebpack",
           "sha256": "e5546eb3f38489ddcf86db681440a2ad4addb985a7fff6ce9d5541679d3d3412",
           "size": 66889
+        },
+        {
+          "version": "0.2.4",
+          "path": "packs/agent-session-core/agent-session-core-0.2.4.nebpack",
+          "sha256": "3fc9a02e33d01479d2eb76ab9b4572b90941c067836e00e00308c52b6ead8fea",
+          "size": 64899
         }
       ]
     },
@@ -67,7 +79,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.5",
+      "latest": "0.2.6",
       "versions": [
         {
           "version": "0.1.0",
@@ -104,6 +116,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.5.nebpack",
           "sha256": "a0574a053dcd6eee393899ea40b34c09f7662330134ff3510bdf54bd14f27601",
           "size": 96110
+        },
+        {
+          "version": "0.2.6",
+          "path": "packs/ai-governance/ai-governance-0.2.6.nebpack",
+          "sha256": "e96da78021d4d62ee82c031b3fe5ea5a19b6b42f7e69a453ca31dd1342538b93",
+          "size": 87866
         }
       ]
     },
@@ -112,7 +130,7 @@
       "sku": "aws-cloud",
       "description": "AWS cloud guardrails: IAM, encryption, storage, secrets, and cost.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -131,6 +149,12 @@
           "path": "packs/aws-cloud/aws-cloud-0.2.1.nebpack",
           "sha256": "0391310f2734b3f0db7fac5c1e015c23ca04273fe0b0b3749242b7d1661115b7",
           "size": 46180
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/aws-cloud/aws-cloud-0.2.2.nebpack",
+          "sha256": "552f8bcba16e88df5f11e9d71de97b4c857e38bd42db0f24ff18839b1dac395d",
+          "size": 41754
         }
       ]
     },
@@ -139,7 +163,7 @@
       "sku": "business-content",
       "description": "Business content and multi-country policy: tone, accuracy, formatting, legal, and privacy.",
       "availability": "paid-base",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -164,6 +188,12 @@
           "path": "packs/business-content/business-content-0.2.2.nebpack",
           "sha256": "b72d8138fc0063690a5977840ead3d4582f7869653163568a6775ceba12c583b",
           "size": 26024
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/business-content/business-content-0.2.3.nebpack",
+          "sha256": "de89674fb81ab928b1ecb0ea000d310c87b02c5bb58eafea255f2ac979827f55",
+          "size": 23498
         }
       ]
     },
@@ -172,7 +202,7 @@
       "sku": "ci-cd-delivery",
       "description": "CI/CD delivery guardrails: build, release, deployment, and pipeline safety.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -191,6 +221,12 @@
           "path": "packs/ci-cd-delivery/ci-cd-delivery-0.2.1.nebpack",
           "sha256": "c7a9d528aff124f295efda108f5972ae774648b91b480ef1cc2772e94b6a2848",
           "size": 24947
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/ci-cd-delivery/ci-cd-delivery-0.2.2.nebpack",
+          "sha256": "e347b36b29896e5d2cab7a46458f503e053009f1d9fb498bde5a3f6034b0bf48",
+          "size": 22874
         }
       ]
     },
@@ -199,7 +235,7 @@
       "sku": "ci-cd-security",
       "description": "CI/CD security: pipeline, artifact, and logging safety.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -218,6 +254,12 @@
           "path": "packs/ci-cd-security/ci-cd-security-0.2.1.nebpack",
           "sha256": "ae184a4a4ad436e2628b52ff0ec066d05104612a821c8fcb8dafa9bf0d40caed",
           "size": 20864
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/ci-cd-security/ci-cd-security-0.2.2.nebpack",
+          "sha256": "928a7c28aae75e1cdbd0c09ca13968985746f96a6a5bfc594fcc4a0ecdb301cc",
+          "size": 20834
         }
       ]
     },
@@ -226,7 +268,7 @@
       "sku": "cluster-networking",
       "description": "Cluster networking guardrails: TLS, policies, and mesh/DNS.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -245,6 +287,12 @@
           "path": "packs/cluster-networking/cluster-networking-0.2.1.nebpack",
           "sha256": "04d88970784f785e63dbdfbbee1e151d40bab1505e2df6e54c09d85c970d784e",
           "size": 14079
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/cluster-networking/cluster-networking-0.2.2.nebpack",
+          "sha256": "4cb93f9bf7e28281ef73378686cda105bbc8bc40f2587203ba617ac496e1c462",
+          "size": 13721
         }
       ]
     },
@@ -253,7 +301,7 @@
       "sku": "compliance-frameworks",
       "description": "Compliance frameworks: SOC2, NIST, and logging/audit mappings.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -272,6 +320,12 @@
           "path": "packs/compliance-frameworks/compliance-frameworks-0.2.1.nebpack",
           "sha256": "e6d9a3f30384595c6212d825d4faf897c8753ef2586a1235529bc27051048e18",
           "size": 22482
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/compliance-frameworks/compliance-frameworks-0.2.2.nebpack",
+          "sha256": "c8661b410f855770b9502ecc45ce3b85c18164cc5b2c1b01649fcf58fad64277",
+          "size": 22572
         }
       ]
     },
@@ -280,7 +334,7 @@
       "sku": "containers",
       "description": "Container guardrails: image provenance, base-image, and runtime.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -299,6 +353,12 @@
           "path": "packs/containers/containers-0.2.1.nebpack",
           "sha256": "2a46b51f3a8934c0f49cd164aad16bb16058c2eda25a70d896564f6e4c4359c9",
           "size": 14895
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/containers/containers-0.2.2.nebpack",
+          "sha256": "8136c32a1303613c44e058f0b52731ff4de662d03e8a041ecba7f682c4dcd03e",
+          "size": 14684
         }
       ]
     },
@@ -322,7 +382,7 @@
       "sku": "cost-management",
       "description": "Cost-management guardrails: sizing, licensing, attribution, and cleanup.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -341,6 +401,12 @@
           "path": "packs/cost-management/cost-management-0.2.1.nebpack",
           "sha256": "4da61520d839fbfcccc3aedb1a0c06876d9bf3d2405cd9def91f18ead195aeae",
           "size": 10968
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/cost-management/cost-management-0.2.2.nebpack",
+          "sha256": "8bd55e6403a673a949126b85e800ac12573da89f1e71891194cde2c2a9242362",
+          "size": 6125
         }
       ]
     },
@@ -349,7 +415,7 @@
       "sku": "crossplane",
       "description": "Crossplane composition, provider-config, and lifecycle guardrails.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -368,6 +434,12 @@
           "path": "packs/crossplane/crossplane-0.2.1.nebpack",
           "sha256": "0aa8da4d40f1645b0441a20475d17bf2ecaec87a90fa1b3e75b5d18ed5460cbf",
           "size": 19564
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/crossplane/crossplane-0.2.2.nebpack",
+          "sha256": "a322de8a91d6fed6c52c20862899199eb440c08d1d4e78d1dd21809e7bfecd2c",
+          "size": 19100
         }
       ]
     },
@@ -376,7 +448,7 @@
       "sku": "data-protection",
       "description": "Data protection: PII handling, encryption at rest, and retention.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -395,6 +467,12 @@
           "path": "packs/data-protection/data-protection-0.2.1.nebpack",
           "sha256": "146294709233fe734d577ad4e20b75185f2d5b1c06714cabd1a65295a8a8eb65",
           "size": 31385
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/data-protection/data-protection-0.2.2.nebpack",
+          "sha256": "92641e45d9c2f425667d6aafe844be72aa80b0a93af37697956efc20470371cc",
+          "size": 28927
         }
       ]
     },
@@ -418,7 +496,7 @@
       "sku": "docs-hygiene",
       "description": "Documentation hygiene: ADR, changelog, API-doc, and general doc guards.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -437,6 +515,12 @@
           "path": "packs/docs-hygiene/docs-hygiene-0.2.1.nebpack",
           "sha256": "480f497d867d38153024057b493cdad6883cbe863fb6a31bf5eeb62cf983bcc7",
           "size": 12941
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/docs-hygiene/docs-hygiene-0.2.2.nebpack",
+          "sha256": "5cb9c327418a2bbb20915cf56dbd6b7b7ed2051624a1a5e6d533ae9cbaec3d90",
+          "size": 9236
         }
       ]
     },
@@ -445,7 +529,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.3",
+      "latest": "0.2.4",
       "versions": [
         {
           "version": "0.1.0",
@@ -470,6 +554,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.3.nebpack",
           "sha256": "0fda40901b13389cff6b408b5041ed2180c74918524da041d6b98a4c383e8509",
           "size": 73561
+        },
+        {
+          "version": "0.2.4",
+          "path": "packs/engineering-practices/engineering-practices-0.2.4.nebpack",
+          "sha256": "49924e9d89ee3649f404780d86ac62647138fd9edc56bf0a2aa9c5e7ab1b820c",
+          "size": 72037
         }
       ]
     },
@@ -478,7 +568,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.1",
+      "latest": "0.3.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -497,6 +587,12 @@
           "path": "packs/git-workflow/git-workflow-0.3.1.nebpack",
           "sha256": "34df9eed73cb7ebbfc8ea798ad51bcd457709cc2b7340441ca4fd4a1aefefe31",
           "size": 63132
+        },
+        {
+          "version": "0.3.2",
+          "path": "packs/git-workflow/git-workflow-0.3.2.nebpack",
+          "sha256": "b35bde363b36b75d160919cfa77ba3660621f303fc03f6f8fbd877b54638d345",
+          "size": 58845
         }
       ]
     },
@@ -505,7 +601,7 @@
       "sku": "gitops-argocd",
       "description": "GitOps and ArgoCD delivery safety: declarative enforcement and sync-lifecycle guards.",
       "availability": "free",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -530,6 +626,12 @@
           "path": "packs/gitops-argocd/gitops-argocd-0.2.2.nebpack",
           "sha256": "4584a4503c6bbd43451c31e66072c11afaee4ed4f9a9e82bd0e6c461b9625606",
           "size": 29693
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/gitops-argocd/gitops-argocd-0.2.3.nebpack",
+          "sha256": "c3fcdb46ccda7550effa6014421cfae2e6a5c0a337a912756a13fd1188bd64c8",
+          "size": 27365
         }
       ]
     },
@@ -538,7 +640,7 @@
       "sku": "helm-charts",
       "description": "Helm chart guardrails: dependency, values type-safety, versioning, and template safety.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -557,6 +659,12 @@
           "path": "packs/helm-charts/helm-charts-0.2.1.nebpack",
           "sha256": "22ed773b2549fd961f1d01fb606f4c617b28882e7427d8f596fdb445834364b2",
           "size": 18224
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/helm-charts/helm-charts-0.2.2.nebpack",
+          "sha256": "28164977ac422476f2495179924f3d43aae8923c6b6cce2a2ec705f76e4c3de8",
+          "size": 13126
         }
       ]
     },
@@ -565,7 +673,7 @@
       "sku": "incident-management",
       "description": "Incident-management discipline: runbooks and postmortems.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -584,6 +692,12 @@
           "path": "packs/incident-management/incident-management-0.2.1.nebpack",
           "sha256": "7b96151c6342a5fbfbf439b9956f12a076203e11b3827888b69187cc3e42c716",
           "size": 6179
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/incident-management/incident-management-0.2.2.nebpack",
+          "sha256": "88b5b3b10896e96b61de3381d972e6244753faa664fb65cdb81d7a5a933e9a23",
+          "size": 6180
         }
       ]
     },
@@ -592,7 +706,7 @@
       "sku": "kubernetes-platform",
       "description": "Kubernetes platform guardrails: RBAC, pod-security, resource, namespace, and admission safety.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -611,6 +725,12 @@
           "path": "packs/kubernetes-platform/kubernetes-platform-0.2.1.nebpack",
           "sha256": "60247d3bea957cfa47de3bdcf34481264366a338d1425f770b3a7b05dc4a9326",
           "size": 57218
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/kubernetes-platform/kubernetes-platform-0.2.2.nebpack",
+          "sha256": "492c672fd5209e95af3881c568402c115b48c4886ec7712e09266d2b6d1cfb35",
+          "size": 57119
         }
       ]
     },
@@ -619,7 +739,7 @@
       "sku": "lang-go",
       "description": "Go language guardrails: error handling, concurrency, style, build, and testing.",
       "availability": "paid-addon",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -638,6 +758,12 @@
           "path": "packs/lang-go/lang-go-0.2.1.nebpack",
           "sha256": "fe5b956096704429fc12beba3c7a493260bf8cb32bb1da88191b43e200328dc1",
           "size": 22775
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/lang-go/lang-go-0.2.2.nebpack",
+          "sha256": "3565ffc7175e72b0e48f38516cd59681850a776c79e86c768cc4d57a75694875",
+          "size": 18217
         }
       ]
     },
@@ -673,7 +799,7 @@
       "sku": "lang-python",
       "description": "Python language guardrails: type-safety, security, dependencies, and testing.",
       "availability": "paid-addon",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -692,6 +818,12 @@
           "path": "packs/lang-python/lang-python-0.2.1.nebpack",
           "sha256": "7ecf06a69ae9fc36dded36aa108ff5cd4c9e182416c551a9e6c2a1d00fb23b42",
           "size": 14686
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/lang-python/lang-python-0.2.2.nebpack",
+          "sha256": "f9790f85a10d87386a40da2d161953d7d4f20588192ccca60cbce3dbb869692f",
+          "size": 14686
         }
       ]
     },
@@ -700,7 +832,7 @@
       "sku": "lang-rust",
       "description": "Rust language safety guardrails.",
       "availability": "paid-addon",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -719,6 +851,12 @@
           "path": "packs/lang-rust/lang-rust-0.2.1.nebpack",
           "sha256": "7e936dae30b0e203ad8c31fe0685e5705b4c06f82e9c27678e4c23f556cd664d",
           "size": 4964
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/lang-rust/lang-rust-0.2.2.nebpack",
+          "sha256": "d0161aa33671717a8b92bc69df9ff505d87f246ac414b7913f6a172d2fe63877",
+          "size": 4929
         }
       ]
     },
@@ -754,7 +892,7 @@
       "sku": "lang-sql",
       "description": "SQL safety guardrails.",
       "availability": "paid-addon",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -773,6 +911,12 @@
           "path": "packs/lang-sql/lang-sql-0.2.1.nebpack",
           "sha256": "fd11a225b1b5ece48037864a2315079ffdf8a1420344799b89e9e381eeb7aa2e",
           "size": 7328
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/lang-sql/lang-sql-0.2.2.nebpack",
+          "sha256": "458c48b6348c76b29e056dea25a65312d0a5cc945db475e48667e595c135f99e",
+          "size": 7240
         }
       ]
     },
@@ -781,7 +925,7 @@
       "sku": "lang-typescript",
       "description": "TypeScript language guardrails: type-safety, security, dependencies, and React.",
       "availability": "paid-addon",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -800,6 +944,27 @@
           "path": "packs/lang-typescript/lang-typescript-0.2.1.nebpack",
           "sha256": "f5b7eccf76062fa5febaa8aac63231a1586db601721042ce6a0e580eeabb088e",
           "size": 17268
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/lang-typescript/lang-typescript-0.2.2.nebpack",
+          "sha256": "563d19cdf0158f639dd5d8ab721ca452f60fd3792975280558800c9f5ed1d1c9",
+          "size": 16848
+        }
+      ]
+    },
+    {
+      "id": "nebinfra-internal",
+      "sku": "nebinfra-internal",
+      "description": "Nebinfra-internal guardrails: house policies, first-party component contracts, and white-label enforcement. Not distributed to customer organizations.",
+      "availability": "paid-addon",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "packs/nebinfra-internal/nebinfra-internal-1.0.0.nebpack",
+          "sha256": "e5aa7c695deda97d2f446ce554a6a12efe71a0e3ac8f9df38dfc9f45eef03f07",
+          "size": 53178
         }
       ]
     },
@@ -808,7 +973,7 @@
       "sku": "observability",
       "description": "Observability guardrails: logging, metrics, alerting, and debugging discipline.",
       "availability": "free",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -826,6 +991,12 @@
           "version": "0.2.1",
           "path": "packs/observability/observability-0.2.1.nebpack",
           "sha256": "0787aae9df9fa01f0140bb56ca656a07d9f566d3bc95a8288e0ad7036de227ce",
+          "size": 15810
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/observability/observability-0.2.2.nebpack",
+          "sha256": "3d7943f31dbae2aee12181b9c7989fb612c181ccc6f42aae8b2da29519bf3fbb",
           "size": 15810
         }
       ]
@@ -850,7 +1021,7 @@
       "sku": "runtime-protection",
       "description": "Runtime protection: agent-context guards against local configuration and credential introspection, environment and process disclosure, credential exfiltration, and high-risk fetched commands.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.2.0",
@@ -863,6 +1034,12 @@
           "path": "packs/runtime-protection/runtime-protection-0.2.1.nebpack",
           "sha256": "a1f87623949f89864cfe04b366f7c62f71e7016751d80a8d1e40384a46793e80",
           "size": 19207
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/runtime-protection/runtime-protection-0.2.2.nebpack",
+          "sha256": "6d23e873bcd15a8c5563a81cbd45ebef9ab1134028f866fb084b287d4bcda545",
+          "size": 18587
         }
       ]
     },
@@ -871,7 +1048,7 @@
       "sku": "secrets-management",
       "description": "Secrets management: detection, container, architecture, and runtime handling.",
       "availability": "paid-base",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -896,6 +1073,12 @@
           "path": "packs/secrets-management/secrets-management-0.2.2.nebpack",
           "sha256": "1dc9b1b44983d14b5713ba0b4302d6b8aaadcc90b482fd7f56034c8d670ee6f5",
           "size": 28964
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/secrets-management/secrets-management-0.2.3.nebpack",
+          "sha256": "2ca74c78d30e8fad24281e16e1b08bd03e5fe85afd6b4a0aaffb1397426d9205",
+          "size": 28575
         }
       ]
     },
@@ -904,7 +1087,7 @@
       "sku": "security-appsec",
       "description": "Application security: injection, authentication, authorization, network-security, and cryptography.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -923,6 +1106,12 @@
           "path": "packs/security-appsec/security-appsec-0.2.1.nebpack",
           "sha256": "669e0ae70a93548f64c8f8592fb712ad154b20a12dd270786063d2a390cc48a7",
           "size": 73430
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/security-appsec/security-appsec-0.2.2.nebpack",
+          "sha256": "a969a1d581e12859d7a4c20fdeadc0a8704770c3cfe65ef740055e089bdfe51b",
+          "size": 68487
         }
       ]
     },
@@ -931,7 +1120,7 @@
       "sku": "supply-chain",
       "description": "Supply-chain security: dependency, audit, and package safety.",
       "availability": "paid-base",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -950,6 +1139,12 @@
           "path": "packs/supply-chain/supply-chain-0.2.1.nebpack",
           "sha256": "54ce8660f73eea9eb4a78acd2b662eecf1513a69823350cb13a75a6a1b50d10d",
           "size": 26824
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/supply-chain/supply-chain-0.2.2.nebpack",
+          "sha256": "391470e5e94b3583e941fa168ca74dad434f22d97611aa2c39bbee326d702e56",
+          "size": 24495
         }
       ]
     },
