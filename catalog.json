@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T05:25:45Z",
+  "generatedAt": "2026-07-31T06:55:09Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -34,7 +34,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -71,6 +71,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.4.nebpack",
           "sha256": "3fc9a02e33d01479d2eb76ab9b4572b90941c067836e00e00308c52b6ead8fea",
           "size": 64899
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/agent-session-core/agent-session-core-0.2.5.nebpack",
+          "sha256": "686884f038fa97cda13117e606ec436670f271d26a837224de0cf7d67791910f",
+          "size": 64912
         }
       ]
     },
@@ -79,7 +85,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.6",
+      "latest": "0.2.7",
       "versions": [
         {
           "version": "0.1.0",
@@ -122,6 +128,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.6.nebpack",
           "sha256": "e96da78021d4d62ee82c031b3fe5ea5a19b6b42f7e69a453ca31dd1342538b93",
           "size": 87866
+        },
+        {
+          "version": "0.2.7",
+          "path": "packs/ai-governance/ai-governance-0.2.7.nebpack",
+          "sha256": "44797435092573bcb1bf8628812348b2369397a5710021be1761e779101fb393",
+          "size": 87843
         }
       ]
     },
@@ -363,21 +375,6 @@
       ]
     },
     {
-      "id": "core",
-      "sku": "core",
-      "description": "The always-on safety baseline. Guards git workflows, destructive shell operations, and infrastructure changes for every install.",
-      "availability": "free",
-      "latest": "0.1.0",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "path": "packs/core/core-0.1.0.nebpack",
-          "sha256": "8753ba6ab3e51073698e679986e6fd262f16090a28e8b809be69d4d91abb18c0",
-          "size": 382410
-        }
-      ]
-    },
-    {
       "id": "cost-management",
       "sku": "cost-management",
       "description": "Cost-management guardrails: sizing, licensing, attribution, and cleanup.",
@@ -477,21 +474,6 @@
       ]
     },
     {
-      "id": "development",
-      "sku": "development",
-      "description": "The development add-on. Code review discipline, test hygiene, and engineering workflow guards.",
-      "availability": "paid-addon",
-      "latest": "0.1.0",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "path": "packs/development/development-0.1.0.nebpack",
-          "sha256": "9195b9422b193efc704b8990256b488d81465560fab1ff798d17895cb45f5271",
-          "size": 151803
-        }
-      ]
-    },
-    {
       "id": "docs-hygiene",
       "sku": "docs-hygiene",
       "description": "Documentation hygiene: ADR, changelog, API-doc, and general doc guards.",
@@ -529,7 +511,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -560,6 +542,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.4.nebpack",
           "sha256": "49924e9d89ee3649f404780d86ac62647138fd9edc56bf0a2aa9c5e7ab1b820c",
           "size": 72037
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/engineering-practices/engineering-practices-0.2.5.nebpack",
+          "sha256": "1b4f841e5a4a360e34cf94c9c9e788dc4534c8e32cb3fa22291dd6a5542dd7c1",
+          "size": 72039
         }
       ]
     },
@@ -805,7 +793,7 @@
       "sku": "lang-python",
       "description": "Python language guardrails: type-safety, security, dependencies, and testing.",
       "availability": "paid-addon",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -830,6 +818,12 @@
           "path": "packs/lang-python/lang-python-0.2.2.nebpack",
           "sha256": "f9790f85a10d87386a40da2d161953d7d4f20588192ccca60cbce3dbb869692f",
           "size": 14686
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/lang-python/lang-python-0.2.3.nebpack",
+          "sha256": "d8fdc90b3bbf61b7f0b8ec62837bf4382a7628d5079b23cdfb54a901b06c5da3",
+          "size": 14990
         }
       ]
     },
@@ -960,21 +954,6 @@
       ]
     },
     {
-      "id": "nebinfra-internal",
-      "sku": "nebinfra-internal",
-      "description": "Nebinfra-internal guardrails: house policies, first-party component contracts, and white-label enforcement. Not distributed to customer organizations.",
-      "availability": "paid-addon",
-      "latest": "1.0.0",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "path": "packs/nebinfra-internal/nebinfra-internal-1.0.0.nebpack",
-          "sha256": "e5aa7c695deda97d2f446ce554a6a12efe71a0e3ac8f9df38dfc9f45eef03f07",
-          "size": 53178
-        }
-      ]
-    },
-    {
       "id": "observability",
       "sku": "observability",
       "description": "Observability guardrails: logging, metrics, alerting, and debugging discipline.",
@@ -1004,21 +983,6 @@
           "path": "packs/observability/observability-0.2.2.nebpack",
           "sha256": "3d7943f31dbae2aee12181b9c7989fb612c181ccc6f42aae8b2da29519bf3fbb",
           "size": 15810
-        }
-      ]
-    },
-    {
-      "id": "pro",
-      "sku": "pro",
-      "description": "The paid guardrail set. AI governance, business policy, and security enforcement for licensed NebCore tenants.",
-      "availability": "paid-base",
-      "latest": "0.1.0",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "path": "packs/pro/pro-0.1.0.nebpack",
-          "sha256": "ef5ce5a958febd4580f6217a392d91391480fba9af3e7ae3558b66fe88a38c11",
-          "size": 307283
         }
       ]
     },
@@ -1159,7 +1123,7 @@
       "sku": "testing-discipline",
       "description": "Testing discipline: test design, mocking, and reliability.",
       "availability": "paid-addon",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": [
         {
           "version": "0.1.0",
@@ -1178,6 +1142,12 @@
           "path": "packs/testing-discipline/testing-discipline-0.2.1.nebpack",
           "sha256": "8746a038040ce8bd164c429af1a5512f40515ec3cedfb0c74609a70cf583fcaa",
           "size": 13939
+        },
+        {
+          "version": "0.2.2",
+          "path": "packs/testing-discipline/testing-discipline-0.2.2.nebpack",
+          "sha256": "f19d60716b7d481efb73068d6f855dd5c8b0ca80dbf18bce0080c7a773b45e4b",
+          "size": 14238
         }
       ]
     }
