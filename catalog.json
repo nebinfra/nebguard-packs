@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T06:55:09Z",
+  "generatedAt": "2026-07-31T07:45:29Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -34,7 +34,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.5",
+      "latest": "0.2.6",
       "versions": [
         {
           "version": "0.1.0",
@@ -77,6 +77,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.5.nebpack",
           "sha256": "686884f038fa97cda13117e606ec436670f271d26a837224de0cf7d67791910f",
           "size": 64912
+        },
+        {
+          "version": "0.2.6",
+          "path": "packs/agent-session-core/agent-session-core-0.2.6.nebpack",
+          "sha256": "99390f4c26571380a7d04281a4bfa0c1c9c9cf3ed0be417483597d885639c042",
+          "size": 64961
         }
       ]
     },
@@ -85,7 +91,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.7",
+      "latest": "0.2.8",
       "versions": [
         {
           "version": "0.1.0",
@@ -134,6 +140,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.7.nebpack",
           "sha256": "44797435092573bcb1bf8628812348b2369397a5710021be1761e779101fb393",
           "size": 87843
+        },
+        {
+          "version": "0.2.8",
+          "path": "packs/ai-governance/ai-governance-0.2.8.nebpack",
+          "sha256": "5dc8dd89c311c60b8749825c9bb67ca2772f619fafeda0d77f0fcc636d272508",
+          "size": 87808
         }
       ]
     },
@@ -247,7 +259,7 @@
       "sku": "ci-cd-security",
       "description": "CI/CD security: pipeline, artifact, and logging safety.",
       "availability": "paid-base",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -272,6 +284,12 @@
           "path": "packs/ci-cd-security/ci-cd-security-0.2.2.nebpack",
           "sha256": "928a7c28aae75e1cdbd0c09ca13968985746f96a6a5bfc594fcc4a0ecdb301cc",
           "size": 20834
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/ci-cd-security/ci-cd-security-0.2.3.nebpack",
+          "sha256": "d4790c1cedc6540352238716d2e9e756338adef7c321d84a20ffdc184814e427",
+          "size": 20810
         }
       ]
     },
@@ -511,7 +529,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.5",
+      "latest": "0.2.6",
       "versions": [
         {
           "version": "0.1.0",
@@ -548,6 +566,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.5.nebpack",
           "sha256": "1b4f841e5a4a360e34cf94c9c9e788dc4534c8e32cb3fa22291dd6a5542dd7c1",
           "size": 72039
+        },
+        {
+          "version": "0.2.6",
+          "path": "packs/engineering-practices/engineering-practices-0.2.6.nebpack",
+          "sha256": "5e68be6f258606666447ca06cbafd1684c6286e5fdbfdb1f7b07591d76bb08f0",
+          "size": 72045
         }
       ]
     },
@@ -694,7 +718,7 @@
       "sku": "kubernetes-platform",
       "description": "Kubernetes platform guardrails: RBAC, pod-security, resource, namespace, and admission safety.",
       "availability": "free",
-      "latest": "0.2.3",
+      "latest": "0.2.4",
       "versions": [
         {
           "version": "0.1.0",
@@ -725,6 +749,12 @@
           "path": "packs/kubernetes-platform/kubernetes-platform-0.2.3.nebpack",
           "sha256": "d0e6721b56d0789e3886730b7cf5119fd436dd228ee7dc21669686e443bc162d",
           "size": 57472
+        },
+        {
+          "version": "0.2.4",
+          "path": "packs/kubernetes-platform/kubernetes-platform-0.2.4.nebpack",
+          "sha256": "e3deafcfa028d293b0b607d6456b1fc718b146f7c8e3938a8c70f12be832fc75",
+          "size": 58074
         }
       ]
     },
@@ -1018,7 +1048,7 @@
       "sku": "secrets-management",
       "description": "Secrets management: detection, container, architecture, and runtime handling.",
       "availability": "paid-base",
-      "latest": "0.2.3",
+      "latest": "0.2.4",
       "versions": [
         {
           "version": "0.1.0",
@@ -1049,6 +1079,12 @@
           "path": "packs/secrets-management/secrets-management-0.2.3.nebpack",
           "sha256": "2ca74c78d30e8fad24281e16e1b08bd03e5fe85afd6b4a0aaffb1397426d9205",
           "size": 28575
+        },
+        {
+          "version": "0.2.4",
+          "path": "packs/secrets-management/secrets-management-0.2.4.nebpack",
+          "sha256": "5b1650e49d097cc8dbb43f15748fe0f624ed4eaf178324c6dc853523046217b4",
+          "size": 28581
         }
       ]
     },
