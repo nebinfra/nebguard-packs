@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T04:47:10Z",
+  "generatedAt": "2026-07-31T05:25:45Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -706,7 +706,7 @@
       "sku": "kubernetes-platform",
       "description": "Kubernetes platform guardrails: RBAC, pod-security, resource, namespace, and admission safety.",
       "availability": "free",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -731,6 +731,12 @@
           "path": "packs/kubernetes-platform/kubernetes-platform-0.2.2.nebpack",
           "sha256": "492c672fd5209e95af3881c568402c115b48c4886ec7712e09266d2b6d1cfb35",
           "size": 57119
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/kubernetes-platform/kubernetes-platform-0.2.3.nebpack",
+          "sha256": "d0e6721b56d0789e3886730b7cf5119fd436dd228ee7dc21669686e443bc162d",
+          "size": 57472
         }
       ]
     },
