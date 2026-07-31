@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T07:45:29Z",
+  "generatedAt": "2026-07-31T23:31:36Z",
   "packs": [
     {
       "id": "adherence-core",
       "sku": "adherence-core",
       "description": "Agent goal and persona adherence: deterministic drift detection. Ships injection resistance (inbound override attempts and agent capitulation); role-relative drift requires semantic evaluation and is out of scope for static rules.",
       "availability": "paid-base",
-      "latest": "1.1.0",
+      "latest": "1.1.1",
       "versions": [
         {
           "version": "1.0.0",
@@ -26,6 +26,12 @@
           "path": "packs/adherence-core/adherence-core-1.1.0.nebpack",
           "sha256": "65cdd54fcf46de20f4e1b03deaa2f52d1b4a8aff329eff903e48bd9af9345741",
           "size": 8218
+        },
+        {
+          "version": "1.1.1",
+          "path": "packs/adherence-core/adherence-core-1.1.1.nebpack",
+          "sha256": "e14820cf1a86c2e4a2d7f5bc41f8ca61491549a72d88e527a28cb8c54ee1b1f6",
+          "size": 8918
         }
       ]
     },
@@ -34,7 +40,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.6",
+      "latest": "0.2.7",
       "versions": [
         {
           "version": "0.1.0",
@@ -83,6 +89,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.6.nebpack",
           "sha256": "99390f4c26571380a7d04281a4bfa0c1c9c9cf3ed0be417483597d885639c042",
           "size": 64961
+        },
+        {
+          "version": "0.2.7",
+          "path": "packs/agent-session-core/agent-session-core-0.2.7.nebpack",
+          "sha256": "80348c6cb705a376a8e7818f0c5e1824b635d1c9eb9eb5d65b6ad421b395eb21",
+          "size": 67652
         }
       ]
     },
@@ -91,7 +103,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.8",
+      "latest": "0.2.9",
       "versions": [
         {
           "version": "0.1.0",
@@ -146,6 +158,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.8.nebpack",
           "sha256": "5dc8dd89c311c60b8749825c9bb67ca2772f619fafeda0d77f0fcc636d272508",
           "size": 87808
+        },
+        {
+          "version": "0.2.9",
+          "path": "packs/ai-governance/ai-governance-0.2.9.nebpack",
+          "sha256": "ce2ace302f7cba379371684e68147c95402cb14b39e0c5e79673065b6e197600",
+          "size": 90099
         }
       ]
     },
@@ -529,7 +547,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.6",
+      "latest": "0.2.7",
       "versions": [
         {
           "version": "0.1.0",
@@ -572,6 +590,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.6.nebpack",
           "sha256": "5e68be6f258606666447ca06cbafd1684c6286e5fdbfdb1f7b07591d76bb08f0",
           "size": 72045
+        },
+        {
+          "version": "0.2.7",
+          "path": "packs/engineering-practices/engineering-practices-0.2.7.nebpack",
+          "sha256": "63b9e44e36a793c942664d39fb26de675500d3fbc54dc63b163af9e8aa8e713a",
+          "size": 74213
         }
       ]
     },
@@ -580,7 +604,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.2",
+      "latest": "0.3.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -605,6 +629,12 @@
           "path": "packs/git-workflow/git-workflow-0.3.2.nebpack",
           "sha256": "b35bde363b36b75d160919cfa77ba3660621f303fc03f6f8fbd877b54638d345",
           "size": 58845
+        },
+        {
+          "version": "0.3.3",
+          "path": "packs/git-workflow/git-workflow-0.3.3.nebpack",
+          "sha256": "693c969ddee9058784da239cccf145e1fb9e33ce78a5ec4715ca706e9d21ac3a",
+          "size": 60692
         }
       ]
     },
@@ -718,7 +748,7 @@
       "sku": "kubernetes-platform",
       "description": "Kubernetes platform guardrails: RBAC, pod-security, resource, namespace, and admission safety.",
       "availability": "free",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -755,6 +785,12 @@
           "path": "packs/kubernetes-platform/kubernetes-platform-0.2.4.nebpack",
           "sha256": "e3deafcfa028d293b0b607d6456b1fc718b146f7c8e3938a8c70f12be832fc75",
           "size": 58074
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/kubernetes-platform/kubernetes-platform-0.2.5.nebpack",
+          "sha256": "17d20552ab1fb845d454ce0165db1cb005cb58dcd2a5c4cd02db92e8e4c4dabd",
+          "size": 58386
         }
       ]
     },
@@ -1021,7 +1057,7 @@
       "sku": "runtime-protection",
       "description": "Runtime protection: agent-context guards against local configuration and credential introspection, environment and process disclosure, credential exfiltration, and high-risk fetched commands.",
       "availability": "paid-base",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.2.0",
@@ -1040,6 +1076,12 @@
           "path": "packs/runtime-protection/runtime-protection-0.2.2.nebpack",
           "sha256": "6d23e873bcd15a8c5563a81cbd45ebef9ab1134028f866fb084b287d4bcda545",
           "size": 18587
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/runtime-protection/runtime-protection-0.2.3.nebpack",
+          "sha256": "2e04243e402581bfccbc69441d3e7b69d50a85875c1135806b652192cd405b44",
+          "size": 19122
         }
       ]
     },
@@ -1048,7 +1090,7 @@
       "sku": "secrets-management",
       "description": "Secrets management: detection, container, architecture, and runtime handling.",
       "availability": "paid-base",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -1085,6 +1127,12 @@
           "path": "packs/secrets-management/secrets-management-0.2.4.nebpack",
           "sha256": "5b1650e49d097cc8dbb43f15748fe0f624ed4eaf178324c6dc853523046217b4",
           "size": 28581
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/secrets-management/secrets-management-0.2.5.nebpack",
+          "sha256": "de7d2af1ce4091057eaf6ec8c0fe9ff3c4f136953571d812614f3b406643cd37",
+          "size": 28728
         }
       ]
     },
