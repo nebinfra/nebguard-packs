@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T23:31:36Z",
+  "generatedAt": "2026-08-01T00:05:03Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -40,7 +40,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.7",
+      "latest": "0.2.8",
       "versions": [
         {
           "version": "0.1.0",
@@ -95,6 +95,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.7.nebpack",
           "sha256": "80348c6cb705a376a8e7818f0c5e1824b635d1c9eb9eb5d65b6ad421b395eb21",
           "size": 67652
+        },
+        {
+          "version": "0.2.8",
+          "path": "packs/agent-session-core/agent-session-core-0.2.8.nebpack",
+          "sha256": "013230f38d84a10aa619aeab97149e0168a0a02aaaed662ffbfa9c12f3bc4bbb",
+          "size": 66171
         }
       ]
     },
@@ -1090,7 +1096,7 @@
       "sku": "secrets-management",
       "description": "Secrets management: detection, container, architecture, and runtime handling.",
       "availability": "paid-base",
-      "latest": "0.2.5",
+      "latest": "0.2.6",
       "versions": [
         {
           "version": "0.1.0",
@@ -1133,6 +1139,12 @@
           "path": "packs/secrets-management/secrets-management-0.2.5.nebpack",
           "sha256": "de7d2af1ce4091057eaf6ec8c0fe9ff3c4f136953571d812614f3b406643cd37",
           "size": 28728
+        },
+        {
+          "version": "0.2.6",
+          "path": "packs/secrets-management/secrets-management-0.2.6.nebpack",
+          "sha256": "55876755103f55b16a6c0d692d3cabafc09d27847f79963f5a4481ce24d81919",
+          "size": 29146
         }
       ]
     },
