@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T00:05:03Z",
+  "generatedAt": "2026-08-01T01:08:14Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -109,7 +109,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.9",
+      "latest": "0.2.10",
       "versions": [
         {
           "version": "0.1.0",
@@ -170,6 +170,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.9.nebpack",
           "sha256": "ce2ace302f7cba379371684e68147c95402cb14b39e0c5e79673065b6e197600",
           "size": 90099
+        },
+        {
+          "version": "0.2.10",
+          "path": "packs/ai-governance/ai-governance-0.2.10.nebpack",
+          "sha256": "e840488e0796ca7a4c743e97d2efd49241a11756d1c53042fe0ad5c98ee05775",
+          "size": 90567
         }
       ]
     },
