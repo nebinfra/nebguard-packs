@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T01:08:14Z",
+  "generatedAt": "2026-08-01T03:56:59Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -559,7 +559,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.7",
+      "latest": "0.2.8",
       "versions": [
         {
           "version": "0.1.0",
@@ -608,6 +608,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.7.nebpack",
           "sha256": "63b9e44e36a793c942664d39fb26de675500d3fbc54dc63b163af9e8aa8e713a",
           "size": 74213
+        },
+        {
+          "version": "0.2.8",
+          "path": "packs/engineering-practices/engineering-practices-0.2.8.nebpack",
+          "sha256": "68862b26abd276c5be84232b3da4d66f4857b56a5dab1d2aabd55143bd5cd0b1",
+          "size": 75180
         }
       ]
     },
@@ -871,7 +877,7 @@
       "sku": "lang-python",
       "description": "Python language guardrails: type-safety, security, dependencies, and testing.",
       "availability": "paid-addon",
-      "latest": "0.2.3",
+      "latest": "0.2.4",
       "versions": [
         {
           "version": "0.1.0",
@@ -902,6 +908,12 @@
           "path": "packs/lang-python/lang-python-0.2.3.nebpack",
           "sha256": "d8fdc90b3bbf61b7f0b8ec62837bf4382a7628d5079b23cdfb54a901b06c5da3",
           "size": 14990
+        },
+        {
+          "version": "0.2.4",
+          "path": "packs/lang-python/lang-python-0.2.4.nebpack",
+          "sha256": "99ccf268c09967658b89443f4e1eb15475152aaa3fa659b871e72ed6a4afdba4",
+          "size": 16313
         }
       ]
     },
