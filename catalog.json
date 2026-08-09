@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T03:56:59Z",
+  "generatedAt": "2026-08-09T00:24:24Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -1171,7 +1171,7 @@
       "sku": "security-appsec",
       "description": "Application security: injection, authentication, authorization, network-security, and cryptography.",
       "availability": "paid-base",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -1196,6 +1196,12 @@
           "path": "packs/security-appsec/security-appsec-0.2.2.nebpack",
           "sha256": "a969a1d581e12859d7a4c20fdeadc0a8704770c3cfe65ef740055e089bdfe51b",
           "size": 68487
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/security-appsec/security-appsec-0.2.3.nebpack",
+          "sha256": "4c2a133d0a3409da626e4b23d7b9b1c02fd2c0fd0478c628edb98f4c55f054a4",
+          "size": 68497
         }
       ]
     },
