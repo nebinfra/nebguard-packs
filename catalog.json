@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T01:31:51Z",
+  "generatedAt": "2026-09-14T14:45:49Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -367,7 +367,7 @@
       "sku": "compliance-frameworks",
       "description": "Compliance frameworks: SOC2, NIST, and logging/audit mappings.",
       "availability": "paid-base",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -392,6 +392,12 @@
           "path": "packs/compliance-frameworks/compliance-frameworks-0.2.2.nebpack",
           "sha256": "c8661b410f855770b9502ecc45ce3b85c18164cc5b2c1b01649fcf58fad64277",
           "size": 22572
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/compliance-frameworks/compliance-frameworks-0.2.3.nebpack",
+          "sha256": "f8362795c900dabfc35f79e76d3f7299282f57c0ca351e97ca9cc94e15c67818",
+          "size": 22575
         }
       ]
     },
@@ -628,7 +634,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.4",
+      "latest": "0.3.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -665,6 +671,12 @@
           "path": "packs/git-workflow/git-workflow-0.3.4.nebpack",
           "sha256": "2fd52b95d8775f4f44c3943015339b22c0a7a832185c472ea3d7e09dcf7079a8",
           "size": 61946
+        },
+        {
+          "version": "0.3.5",
+          "path": "packs/git-workflow/git-workflow-0.3.5.nebpack",
+          "sha256": "8d9f2383fcf70e3cd3720101c4a13590c41a8fb1e55e88d580044159167ade0b",
+          "size": 62790
         }
       ]
     },
