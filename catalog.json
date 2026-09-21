@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T14:45:49Z",
+  "generatedAt": "2026-09-21T11:11:24Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -40,7 +40,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.9",
+      "latest": "0.2.10",
       "versions": [
         {
           "version": "0.1.0",
@@ -107,6 +107,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.9.nebpack",
           "sha256": "556c2ff2d525830bef5a9c47f9cd06465aef3b3957c0c5a9d6417affd7f207b5",
           "size": 66317
+        },
+        {
+          "version": "0.2.10",
+          "path": "packs/agent-session-core/agent-session-core-0.2.10.nebpack",
+          "sha256": "6419cd0a156b9dc028fdca0e17463798d1ba1909e07db328a6d6a25f77d627c5",
+          "size": 66392
         }
       ]
     },
@@ -115,7 +121,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.10",
+      "latest": "0.2.11",
       "versions": [
         {
           "version": "0.1.0",
@@ -182,6 +188,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.10.nebpack",
           "sha256": "e840488e0796ca7a4c743e97d2efd49241a11756d1c53042fe0ad5c98ee05775",
           "size": 90567
+        },
+        {
+          "version": "0.2.11",
+          "path": "packs/ai-governance/ai-governance-0.2.11.nebpack",
+          "sha256": "545ba2cc3b18ed4da0dce7e67e41d75f3ca80b11f90a5fc6dafd4fd9111072a3",
+          "size": 93535
         }
       ]
     },
@@ -571,7 +583,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.8",
+      "latest": "0.2.9",
       "versions": [
         {
           "version": "0.1.0",
@@ -626,6 +638,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.8.nebpack",
           "sha256": "68862b26abd276c5be84232b3da4d66f4857b56a5dab1d2aabd55143bd5cd0b1",
           "size": 75180
+        },
+        {
+          "version": "0.2.9",
+          "path": "packs/engineering-practices/engineering-practices-0.2.9.nebpack",
+          "sha256": "e8f59e8308d6c325f9e56f596d95d570b5ead8bfb0ba95db9d4fe5cbca9d9bde",
+          "size": 75315
         }
       ]
     },
