@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T11:11:24Z",
+  "generatedAt": "2026-10-04T19:55:26Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -235,7 +235,7 @@
       "sku": "business-content",
       "description": "Business content and multi-country policy: tone, accuracy, formatting, legal, and privacy.",
       "availability": "paid-base",
-      "latest": "0.2.3",
+      "latest": "0.2.4",
       "versions": [
         {
           "version": "0.1.0",
@@ -266,6 +266,12 @@
           "path": "packs/business-content/business-content-0.2.3.nebpack",
           "sha256": "de89674fb81ab928b1ecb0ea000d310c87b02c5bb58eafea255f2ac979827f55",
           "size": 23498
+        },
+        {
+          "version": "0.2.4",
+          "path": "packs/business-content/business-content-0.2.4.nebpack",
+          "sha256": "d930f5bf1a126f5ee7ecfbf8a2de177db03ece6490f1442db16257189932246c",
+          "size": 26090
         }
       ]
     },
@@ -550,7 +556,7 @@
       "sku": "docs-hygiene",
       "description": "Documentation hygiene: ADR, changelog, API-doc, and general doc guards.",
       "availability": "free",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -575,6 +581,12 @@
           "path": "packs/docs-hygiene/docs-hygiene-0.2.2.nebpack",
           "sha256": "5cb9c327418a2bbb20915cf56dbd6b7b7ed2051624a1a5e6d533ae9cbaec3d90",
           "size": 9236
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/docs-hygiene/docs-hygiene-0.2.3.nebpack",
+          "sha256": "2897bd5e90a0e867368afb53e42fff2fd0e06af48452db98d1cf12a3ab9df6f0",
+          "size": 13714
         }
       ]
     },
@@ -583,7 +595,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.9",
+      "latest": "0.2.11",
       "versions": [
         {
           "version": "0.1.0",
@@ -644,6 +656,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.9.nebpack",
           "sha256": "e8f59e8308d6c325f9e56f596d95d570b5ead8bfb0ba95db9d4fe5cbca9d9bde",
           "size": 75315
+        },
+        {
+          "version": "0.2.11",
+          "path": "packs/engineering-practices/engineering-practices-0.2.11.nebpack",
+          "sha256": "5c701844a432848fbeb8c8bd821d09bdaa4e5ff0c8d8d5be5a8755ae408191af",
+          "size": 75828
         }
       ]
     },
@@ -652,7 +670,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.5",
+      "latest": "0.3.6",
       "versions": [
         {
           "version": "0.1.0",
@@ -695,6 +713,12 @@
           "path": "packs/git-workflow/git-workflow-0.3.5.nebpack",
           "sha256": "8d9f2383fcf70e3cd3720101c4a13590c41a8fb1e55e88d580044159167ade0b",
           "size": 62790
+        },
+        {
+          "version": "0.3.6",
+          "path": "packs/git-workflow/git-workflow-0.3.6.nebpack",
+          "sha256": "e3e988320ddd3dbe0b7c141589595ef515826f3fe8ef438403a0ad4c592485cb",
+          "size": 66938
         }
       ]
     },
@@ -703,7 +727,7 @@
       "sku": "gitops-argocd",
       "description": "GitOps and ArgoCD delivery safety: declarative enforcement and sync-lifecycle guards.",
       "availability": "free",
-      "latest": "0.2.3",
+      "latest": "0.2.4",
       "versions": [
         {
           "version": "0.1.0",
@@ -734,6 +758,12 @@
           "path": "packs/gitops-argocd/gitops-argocd-0.2.3.nebpack",
           "sha256": "c3fcdb46ccda7550effa6014421cfae2e6a5c0a337a912756a13fd1188bd64c8",
           "size": 27365
+        },
+        {
+          "version": "0.2.4",
+          "path": "packs/gitops-argocd/gitops-argocd-0.2.4.nebpack",
+          "sha256": "1c3e6137994c3fb6cede9cfa57b1e954f25edaf3b8003486f205ae94e515ae31",
+          "size": 33866
         }
       ]
     },
@@ -1156,7 +1186,7 @@
       "sku": "secrets-management",
       "description": "Secrets management: detection, container, architecture, and runtime handling.",
       "availability": "paid-base",
-      "latest": "0.2.6",
+      "latest": "0.2.7",
       "versions": [
         {
           "version": "0.1.0",
@@ -1205,6 +1235,12 @@
           "path": "packs/secrets-management/secrets-management-0.2.6.nebpack",
           "sha256": "55876755103f55b16a6c0d692d3cabafc09d27847f79963f5a4481ce24d81919",
           "size": 29146
+        },
+        {
+          "version": "0.2.7",
+          "path": "packs/secrets-management/secrets-management-0.2.7.nebpack",
+          "sha256": "4a21ebea9717dafd80ce2e949f3f22304fc842b7ed9acb1ec1f876e8c5240187",
+          "size": 29176
         }
       ]
     },
