@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T22:14:01Z",
+  "generatedAt": "2026-10-10T16:20:35Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -40,7 +40,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.10",
+      "latest": "0.2.11",
       "versions": [
         {
           "version": "0.1.0",
@@ -113,6 +113,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.10.nebpack",
           "sha256": "6419cd0a156b9dc028fdca0e17463798d1ba1909e07db328a6d6a25f77d627c5",
           "size": 66392
+        },
+        {
+          "version": "0.2.11",
+          "path": "packs/agent-session-core/agent-session-core-0.2.11.nebpack",
+          "sha256": "29f35a5534bc5ffb6d724f89755f5849c12fd6933baf0b88c084ec9634411523",
+          "size": 66536
         }
       ]
     },
@@ -121,7 +127,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.11",
+      "latest": "0.2.12",
       "versions": [
         {
           "version": "0.1.0",
@@ -194,6 +200,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.11.nebpack",
           "sha256": "545ba2cc3b18ed4da0dce7e67e41d75f3ca80b11f90a5fc6dafd4fd9111072a3",
           "size": 93535
+        },
+        {
+          "version": "0.2.12",
+          "path": "packs/ai-governance/ai-governance-0.2.12.nebpack",
+          "sha256": "4a8bc94990038fd3a4421d05e851221b342d098fdbaa6c0264617d78c6239076",
+          "size": 93565
         }
       ]
     },
@@ -280,7 +292,7 @@
       "sku": "ci-cd-delivery",
       "description": "CI/CD delivery guardrails: build, release, deployment, and pipeline safety.",
       "availability": "free",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -305,6 +317,12 @@
           "path": "packs/ci-cd-delivery/ci-cd-delivery-0.2.2.nebpack",
           "sha256": "e347b36b29896e5d2cab7a46458f503e053009f1d9fb498bde5a3f6034b0bf48",
           "size": 22874
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/ci-cd-delivery/ci-cd-delivery-0.2.3.nebpack",
+          "sha256": "ce76a2aea8b925243972a89c336f710cbc95b0bbb99d4ed04665507a839a751a",
+          "size": 23198
         }
       ]
     },
@@ -670,7 +688,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.6",
+      "latest": "0.3.7",
       "versions": [
         {
           "version": "0.1.0",
@@ -719,6 +737,12 @@
           "path": "packs/git-workflow/git-workflow-0.3.6.nebpack",
           "sha256": "e3e988320ddd3dbe0b7c141589595ef515826f3fe8ef438403a0ad4c592485cb",
           "size": 66938
+        },
+        {
+          "version": "0.3.7",
+          "path": "packs/git-workflow/git-workflow-0.3.7.nebpack",
+          "sha256": "7d2112a31940f9dc6c750e2a1e147b9840bd8ca34145cef09388260761faac26",
+          "size": 67236
         }
       ]
     },
@@ -1294,7 +1318,7 @@
       "sku": "supply-chain",
       "description": "Supply-chain security: dependency, audit, and package safety.",
       "availability": "paid-base",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -1319,6 +1343,12 @@
           "path": "packs/supply-chain/supply-chain-0.2.2.nebpack",
           "sha256": "391470e5e94b3583e941fa168ca74dad434f22d97611aa2c39bbee326d702e56",
           "size": 24495
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/supply-chain/supply-chain-0.2.3.nebpack",
+          "sha256": "e07175d9c08f30ea149635ebacbd0c1098adab68e0ee047ecf7a0fe3ae93a5a0",
+          "size": 24501
         }
       ]
     },
