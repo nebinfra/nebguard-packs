@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T16:20:35Z",
+  "generatedAt": "2026-10-10T17:04:01Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -1136,6 +1136,21 @@
           "path": "packs/lang-typescript/lang-typescript-0.2.2.nebpack",
           "sha256": "563d19cdf0158f639dd5d8ab721ca452f60fd3792975280558800c9f5ed1d1c9",
           "size": 16848
+        }
+      ]
+    },
+    {
+      "id": "nebinfra-internal",
+      "sku": "nebinfra-internal",
+      "description": "Nebinfra-internal guardrails: house policies, first-party component contracts, and white-label enforcement. Loads only under the platform-owner license.",
+      "availability": "paid-addon",
+      "latest": "1.1.4",
+      "versions": [
+        {
+          "version": "1.1.4",
+          "path": "packs/nebinfra-internal/nebinfra-internal-1.1.4.nebpack",
+          "sha256": "07f0735b36587971da00ab09d76bd5cc4c5e94d43cecc76bf33d76c98fc49a8d",
+          "size": 52201
         }
       ]
     },
