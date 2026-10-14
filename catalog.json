@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T17:04:01Z",
+  "generatedAt": "2026-10-14T02:43:19Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -40,7 +40,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.11",
+      "latest": "0.2.12",
       "versions": [
         {
           "version": "0.1.0",
@@ -119,6 +119,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.11.nebpack",
           "sha256": "29f35a5534bc5ffb6d724f89755f5849c12fd6933baf0b88c084ec9634411523",
           "size": 66536
+        },
+        {
+          "version": "0.2.12",
+          "path": "packs/agent-session-core/agent-session-core-0.2.12.nebpack",
+          "sha256": "7a0ac0eccbb3585025aea91058600cc7fe0e77fb135363b9cdf1fda2f6edfeee",
+          "size": 72006
         }
       ]
     },
