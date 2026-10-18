@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T11:33:17Z",
+  "generatedAt": "2026-10-18T13:49:35Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -40,7 +40,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.12",
+      "latest": "0.2.13",
       "versions": [
         {
           "version": "0.1.0",
@@ -125,6 +125,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.12.nebpack",
           "sha256": "7a0ac0eccbb3585025aea91058600cc7fe0e77fb135363b9cdf1fda2f6edfeee",
           "size": 72006
+        },
+        {
+          "version": "0.2.13",
+          "path": "packs/agent-session-core/agent-session-core-0.2.13.nebpack",
+          "sha256": "f9e6663bf871a0b39500763a24e19cefc60d1d4d4485a8cdfec47fa0537518f1",
+          "size": 81430
         }
       ]
     },
@@ -133,7 +139,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.12",
+      "latest": "0.2.13",
       "versions": [
         {
           "version": "0.1.0",
@@ -212,6 +218,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.12.nebpack",
           "sha256": "4a8bc94990038fd3a4421d05e851221b342d098fdbaa6c0264617d78c6239076",
           "size": 93565
+        },
+        {
+          "version": "0.2.13",
+          "path": "packs/ai-governance/ai-governance-0.2.13.nebpack",
+          "sha256": "89e865816df37dfa4ca790cac72ef6d624c8103bd78c3552d46eb95cecb2d0b4",
+          "size": 96604
         }
       ]
     },
@@ -694,7 +706,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.9",
+      "latest": "0.3.10",
       "versions": [
         {
           "version": "0.1.0",
@@ -761,6 +773,12 @@
           "path": "packs/git-workflow/git-workflow-0.3.9.nebpack",
           "sha256": "53b1cb36200d4f0f850e77179bad8100d401f31a88c20ee01df91e30823a12d7",
           "size": 71596
+        },
+        {
+          "version": "0.3.10",
+          "path": "packs/git-workflow/git-workflow-0.3.10.nebpack",
+          "sha256": "194e7c4bbec609e5851e96c9f8674b6b2706532066773c6eadf39232c8a800f0",
+          "size": 73998
         }
       ]
     },
@@ -769,7 +787,7 @@
       "sku": "gitops-argocd",
       "description": "GitOps and ArgoCD delivery safety: declarative enforcement and sync-lifecycle guards.",
       "availability": "free",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -806,6 +824,12 @@
           "path": "packs/gitops-argocd/gitops-argocd-0.2.4.nebpack",
           "sha256": "1c3e6137994c3fb6cede9cfa57b1e954f25edaf3b8003486f205ae94e515ae31",
           "size": 33866
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/gitops-argocd/gitops-argocd-0.2.5.nebpack",
+          "sha256": "c67700c805479745b70f63223c1bcc237e6bfb60ab25b9a6f4db3568543a20d9",
+          "size": 34133
         }
       ]
     },
