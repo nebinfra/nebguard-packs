@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T00:23:49Z",
+  "generatedAt": "2026-10-20T05:03:05Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -40,7 +40,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.14",
+      "latest": "0.2.15",
       "versions": [
         {
           "version": "0.1.0",
@@ -137,6 +137,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.14.nebpack",
           "sha256": "1a14fa787f8cd1b31bbb72e2b2ca1fff380f567ca4ea75d80d6763546787b3c7",
           "size": 84153
+        },
+        {
+          "version": "0.2.15",
+          "path": "packs/agent-session-core/agent-session-core-0.2.15.nebpack",
+          "sha256": "e3dca31aaf44dd4f7d5faf24f8dfb908e68b10a472f541b0665c66e11a4d55ec",
+          "size": 87084
         }
       ]
     },
@@ -712,7 +718,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.15",
+      "latest": "0.3.16",
       "versions": [
         {
           "version": "0.1.0",
@@ -815,6 +821,12 @@
           "path": "packs/git-workflow/git-workflow-0.3.15.nebpack",
           "sha256": "e73b9d493f1041119a1820dde93cc2f60a3fd6a0aedd2e0304656c8ce833cec6",
           "size": 81596
+        },
+        {
+          "version": "0.3.16",
+          "path": "packs/git-workflow/git-workflow-0.3.16.nebpack",
+          "sha256": "4b047cae10996e989dc0696d4429aaf858623324a8a05062ed44875ec0f338f0",
+          "size": 71561
         }
       ]
     },
