@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T11:25:32Z",
+  "generatedAt": "2026-10-21T01:33:05Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -52,7 +52,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.16",
+      "latest": "0.2.17",
       "versions": [
         {
           "version": "0.1.0",
@@ -161,6 +161,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.16.nebpack",
           "sha256": "c0695d2e341d2eb75a837049ead831ee121cb311ff38dda1727509906d81eac8",
           "size": 87878
+        },
+        {
+          "version": "0.2.17",
+          "path": "packs/agent-session-core/agent-session-core-0.2.17.nebpack",
+          "sha256": "c73bba6085aea3875e2b94b2fbcabf19c6d2e6527d949192245a5ffde278f6bb",
+          "size": 88326
         }
       ]
     },
@@ -169,7 +175,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.14",
+      "latest": "0.2.15",
       "versions": [
         {
           "version": "0.1.0",
@@ -260,6 +266,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.14.nebpack",
           "sha256": "d0b5c4cbd60dad9b24e0248b7e12786541849cffed96d43485cdd85cb5a7eb34",
           "size": 89320
+        },
+        {
+          "version": "0.2.15",
+          "path": "packs/ai-governance/ai-governance-0.2.15.nebpack",
+          "sha256": "3adf71513e5116837dd2972afa4681de7e63d68f818e4872e553b3e2999e50cb",
+          "size": 89549
         }
       ]
     },
