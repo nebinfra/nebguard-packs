@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:07:04Z",
+  "generatedAt": "2026-10-23T17:00:56Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -58,7 +58,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.19",
+      "latest": "0.2.20",
       "versions": [
         {
           "version": "0.1.0",
@@ -185,6 +185,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.19.nebpack",
           "sha256": "ec3750b8c9f607250d5ef2147c6eb5b4d72d358fe6cf02e5def9b4b6b1252321",
           "size": 123397
+        },
+        {
+          "version": "0.2.20",
+          "path": "packs/agent-session-core/agent-session-core-0.2.20.nebpack",
+          "sha256": "0550e0c4507ee504aeb344ad070d09d76fd58676bcc385719f1bccdb74b7dcf0",
+          "size": 124541
         }
       ]
     },
@@ -880,7 +886,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.19",
+      "latest": "0.3.20",
       "versions": [
         {
           "version": "0.1.0",
@@ -1007,6 +1013,12 @@
           "path": "packs/git-workflow/git-workflow-0.3.19.nebpack",
           "sha256": "4ddc89868d2900708d05f6e5bbdc39d7ec5fbeb160be59790c732babd2963c70",
           "size": 75232
+        },
+        {
+          "version": "0.3.20",
+          "path": "packs/git-workflow/git-workflow-0.3.20.nebpack",
+          "sha256": "d7780ffedeb859ac2d0281829a2a621414bcec9dd8db886a5173840c2c10f428",
+          "size": 75267
         }
       ]
     },
@@ -1812,7 +1824,7 @@
       "sku": "testing-discipline",
       "description": "Testing discipline: test design, mocking, and reliability.",
       "availability": "paid-addon",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": [
         {
           "version": "0.1.0",
@@ -1837,6 +1849,12 @@
           "path": "packs/testing-discipline/testing-discipline-0.2.2.nebpack",
           "sha256": "f19d60716b7d481efb73068d6f855dd5c8b0ca80dbf18bce0080c7a773b45e4b",
           "size": 14238
+        },
+        {
+          "version": "0.2.3",
+          "path": "packs/testing-discipline/testing-discipline-0.2.3.nebpack",
+          "sha256": "48b7b72898588c36a58c06dc967601aa7e359b2cd9b69d483ae7f692cc4f39a6",
+          "size": 14351
         }
       ]
     }
