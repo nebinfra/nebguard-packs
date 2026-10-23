@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T08:02:33Z",
+  "generatedAt": "2026-10-23T16:07:04Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -58,7 +58,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.18",
+      "latest": "0.2.19",
       "versions": [
         {
           "version": "0.1.0",
@@ -179,6 +179,12 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.18.nebpack",
           "sha256": "69e95d533ba049fa2f767b8244474912004e4d921f8ec83c4a944fc972d587f8",
           "size": 119905
+        },
+        {
+          "version": "0.2.19",
+          "path": "packs/agent-session-core/agent-session-core-0.2.19.nebpack",
+          "sha256": "ec3750b8c9f607250d5ef2147c6eb5b4d72d358fe6cf02e5def9b4b6b1252321",
+          "size": 123397
         }
       ]
     },
@@ -187,7 +193,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.16",
+      "latest": "0.2.17",
       "versions": [
         {
           "version": "0.1.0",
@@ -290,6 +296,12 @@
           "path": "packs/ai-governance/ai-governance-0.2.16.nebpack",
           "sha256": "b14364d5051d0b11ebd70e2dc050911c190a7fe10ea3cabfacccbf70c964dec3",
           "size": 89958
+        },
+        {
+          "version": "0.2.17",
+          "path": "packs/ai-governance/ai-governance-0.2.17.nebpack",
+          "sha256": "43f50e476b1777e1ca2a1aad0dfb4ba210809a9364c73c8c3072c750e08482f7",
+          "size": 89828
         }
       ]
     },
@@ -298,7 +310,7 @@
       "sku": "aws-cloud",
       "description": "AWS cloud guardrails: IAM, encryption, storage, secrets, and cost.",
       "availability": "free",
-      "latest": "0.2.5",
+      "latest": "0.2.6",
       "versions": [
         {
           "version": "0.1.0",
@@ -341,6 +353,12 @@
           "path": "packs/aws-cloud/aws-cloud-0.2.5.nebpack",
           "sha256": "5af6ccd51ed5bc39a6307d68f8cb9fbacf61abc493f3077f830d7f9106ad2b3c",
           "size": 42359
+        },
+        {
+          "version": "0.2.6",
+          "path": "packs/aws-cloud/aws-cloud-0.2.6.nebpack",
+          "sha256": "ac34433f238db9aaa280479b39fd236ae54554f22f6fd3a59774ea6c314fa8a1",
+          "size": 42527
         }
       ]
     },
@@ -997,7 +1015,7 @@
       "sku": "gitops-argocd",
       "description": "GitOps and ArgoCD delivery safety: declarative enforcement and sync-lifecycle guards.",
       "availability": "free",
-      "latest": "0.2.6",
+      "latest": "0.2.7",
       "versions": [
         {
           "version": "0.1.0",
@@ -1046,6 +1064,12 @@
           "path": "packs/gitops-argocd/gitops-argocd-0.2.6.nebpack",
           "sha256": "43b0b42bb5774adf5255ecc22372c1a122e538a3234c01be1867cbb7de884039",
           "size": 34388
+        },
+        {
+          "version": "0.2.7",
+          "path": "packs/gitops-argocd/gitops-argocd-0.2.7.nebpack",
+          "sha256": "12d94bfb2f377a5fbe2134d0d29bf46442517f02150948d624b758990cc3ad67",
+          "size": 34738
         }
       ]
     },
@@ -1132,7 +1156,7 @@
       "sku": "kubernetes-platform",
       "description": "Kubernetes platform guardrails: RBAC, pod-security, resource, namespace, and admission safety.",
       "availability": "free",
-      "latest": "0.2.6",
+      "latest": "0.2.7",
       "versions": [
         {
           "version": "0.1.0",
@@ -1181,6 +1205,12 @@
           "path": "packs/kubernetes-platform/kubernetes-platform-0.2.6.nebpack",
           "sha256": "03685458056d57dc4edaf66856b59bbf38695a53294684cf7269d28678dbbe10",
           "size": 59201
+        },
+        {
+          "version": "0.2.7",
+          "path": "packs/kubernetes-platform/kubernetes-platform-0.2.7.nebpack",
+          "sha256": "49dac288592ee3d091671ff846bd1ba020e49efe34450a3ee75c5e911dd34d69",
+          "size": 59804
         }
       ]
     },
@@ -1417,7 +1447,7 @@
       "sku": "lang-typescript",
       "description": "TypeScript language guardrails: type-safety, security, dependencies, and React.",
       "availability": "paid-addon",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -1454,6 +1484,12 @@
           "path": "packs/lang-typescript/lang-typescript-0.2.4.nebpack",
           "sha256": "ddbe8aea435c3944c3f1de79cf21f4ecf46d1e5891c3678a06bb3d074016b190",
           "size": 15777
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/lang-typescript/lang-typescript-0.2.5.nebpack",
+          "sha256": "5474661f1ce3e548449479590a228208b601424e08953eb4f5e39e0af629b56d",
+          "size": 15889
         }
       ]
     },
@@ -1495,7 +1531,7 @@
       "sku": "observability",
       "description": "Observability guardrails: logging, metrics, alerting, and debugging discipline.",
       "availability": "free",
-      "latest": "0.2.5",
+      "latest": "0.2.6",
       "versions": [
         {
           "version": "0.1.0",
@@ -1538,6 +1574,12 @@
           "path": "packs/observability/observability-0.2.5.nebpack",
           "sha256": "4640e273e45c7781f181f950f71327d0d89d7963dbf54d314bddbab91030cfad",
           "size": 18042
+        },
+        {
+          "version": "0.2.6",
+          "path": "packs/observability/observability-0.2.6.nebpack",
+          "sha256": "193d7293923596a03c0a37635e86d402703db30b33a1e057eab87ff96d7b1647",
+          "size": 18531
         }
       ]
     },
@@ -1579,7 +1621,7 @@
       "sku": "secrets-management",
       "description": "Secrets management: detection, container, architecture, and runtime handling.",
       "availability": "paid-base",
-      "latest": "0.2.8",
+      "latest": "0.2.9",
       "versions": [
         {
           "version": "0.1.0",
@@ -1640,6 +1682,13 @@
           "path": "packs/secrets-management/secrets-management-0.2.8.nebpack",
           "sha256": "7935fdcdebe9aefd86a9924573a1b1e458a660bbcca45b0beaf207b7896822f7",
           "size": 45481,
+          "minEngine": "5.39.1"
+        },
+        {
+          "version": "0.2.9",
+          "path": "packs/secrets-management/secrets-management-0.2.9.nebpack",
+          "sha256": "71c373b705a342d59b12c8e06b23b757dc09a088fe29aa7c69b4aa3891393e44",
+          "size": 47082,
           "minEngine": "5.39.1"
         }
       ]
@@ -1712,7 +1761,7 @@
       "sku": "supply-chain",
       "description": "Supply-chain security: dependency, audit, and package safety.",
       "availability": "paid-base",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -1749,6 +1798,12 @@
           "path": "packs/supply-chain/supply-chain-0.2.4.nebpack",
           "sha256": "8f75c5b50c8889674b22c4eed6f416a074af10a1d54482d1c21ad73c66313c9a",
           "size": 25361
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/supply-chain/supply-chain-0.2.5.nebpack",
+          "sha256": "8577861a6694277519fcf3370315c2dd9f8c6ce43691f33f1180b2555972c57f",
+          "size": 25475
         }
       ]
     },
