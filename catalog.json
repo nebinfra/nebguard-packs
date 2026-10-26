@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T05:06:30Z",
+  "generatedAt": "2026-10-26T20:23:38Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -206,7 +206,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.18",
+      "latest": "0.2.19",
       "versions": [
         {
           "version": "0.1.0",
@@ -322,6 +322,16 @@
           "sha256": "cccb9cb598ff6c1ca1bae2d4421e553d14a1f04ba5b9f0e3fbc53170c8d2218c",
           "size": 91386,
           "minEngine": "5.40.0"
+        },
+        {
+          "version": "0.2.19",
+          "path": "packs/ai-governance/ai-governance-0.2.19.nebpack",
+          "sha256": "ec230093ac22fc4fc82696e48ba4137b05ded9d3fec4e96074c2f1128cbf3f04",
+          "size": 90933,
+          "minEngine": "5.40.0",
+          "engineIds": [
+            "command_scope"
+          ]
         }
       ]
     },
@@ -741,7 +751,7 @@
       "sku": "data-protection",
       "description": "Data protection: PII handling, encryption at rest, and retention.",
       "availability": "paid-base",
-      "latest": "0.2.6",
+      "latest": "0.2.7",
       "versions": [
         {
           "version": "0.1.0",
@@ -790,6 +800,12 @@
           "path": "packs/data-protection/data-protection-0.2.6.nebpack",
           "sha256": "bee8f3beb199e890b8f8037951394c833a6c87be36a5958afae9db5037a18659",
           "size": 29388
+        },
+        {
+          "version": "0.2.7",
+          "path": "packs/data-protection/data-protection-0.2.7.nebpack",
+          "sha256": "1c892e80f8d67d1eae514733e8f348e9a64186814e6c0816c98013fd56bd49dd",
+          "size": 29494
         }
       ]
     },
@@ -849,7 +865,7 @@
       "sku": "engineering-practices",
       "description": "Engineering practices: twelve-factor, code-quality, API design, and code documentation discipline.",
       "availability": "paid-addon",
-      "latest": "0.2.13",
+      "latest": "0.2.14",
       "versions": [
         {
           "version": "0.1.0",
@@ -928,6 +944,12 @@
           "path": "packs/engineering-practices/engineering-practices-0.2.13.nebpack",
           "sha256": "46684108fb2a8fad0758f2cc0ee6661f649a0935a4eef073411ec3e125e268c5",
           "size": 78935
+        },
+        {
+          "version": "0.2.14",
+          "path": "packs/engineering-practices/engineering-practices-0.2.14.nebpack",
+          "sha256": "e24023c19911ce3e39591f556e23a79b3511002111bc31aba92bb4d115b0bf4b",
+          "size": 79258
         }
       ]
     },
@@ -936,7 +958,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.21",
+      "latest": "0.3.22",
       "versions": [
         {
           "version": "0.1.0",
@@ -1076,6 +1098,17 @@
           "sha256": "6db35ab72045c92c2857abdb690ae1b3dade6eef6578c1546b4bb2980656bab0",
           "size": 85059,
           "minEngine": "5.40.0"
+        },
+        {
+          "version": "0.3.22",
+          "path": "packs/git-workflow/git-workflow-0.3.22.nebpack",
+          "sha256": "40735bd82c6eba0fd0cca651caa5e065ba3af33f329ae71cf714cc0a30de3e7a",
+          "size": 83080,
+          "minEngine": "5.40.0",
+          "engineIds": [
+            "command_scope",
+            "merge_train_protection"
+          ]
         }
       ]
     },
@@ -1084,7 +1117,7 @@
       "sku": "gitops-argocd",
       "description": "GitOps and ArgoCD delivery safety: declarative enforcement and sync-lifecycle guards.",
       "availability": "free",
-      "latest": "0.2.8",
+      "latest": "0.2.9",
       "versions": [
         {
           "version": "0.1.0",
@@ -1146,6 +1179,16 @@
           "sha256": "3f0bc2994787d448d6a6aea652638bd36b8a0b55728b3bba7f375dad54e52413",
           "size": 35010,
           "minEngine": "5.40.0"
+        },
+        {
+          "version": "0.2.9",
+          "path": "packs/gitops-argocd/gitops-argocd-0.2.9.nebpack",
+          "sha256": "11ae2ee9563b72d511a8e9e32f52629d81d187c476c4c173d1f45e394b584ee0",
+          "size": 34861,
+          "minEngine": "5.40.0",
+          "engineIds": [
+            "command_scope"
+          ]
         }
       ]
     },
@@ -1238,7 +1281,7 @@
       "sku": "kubernetes-platform",
       "description": "Kubernetes platform guardrails: RBAC, pod-security, resource, namespace, and admission safety.",
       "availability": "free",
-      "latest": "0.2.7",
+      "latest": "0.2.8",
       "versions": [
         {
           "version": "0.1.0",
@@ -1293,6 +1336,16 @@
           "path": "packs/kubernetes-platform/kubernetes-platform-0.2.7.nebpack",
           "sha256": "49dac288592ee3d091671ff846bd1ba020e49efe34450a3ee75c5e911dd34d69",
           "size": 59804
+        },
+        {
+          "version": "0.2.8",
+          "path": "packs/kubernetes-platform/kubernetes-platform-0.2.8.nebpack",
+          "sha256": "9123cb78a80b57ceaf557b035d01b2ab15ca340c650e933b1a1196c967386dd9",
+          "size": 60289,
+          "minEngine": "5.40.0",
+          "engineIds": [
+            "command_scope"
+          ]
         }
       ]
     },
@@ -1301,7 +1354,7 @@
       "sku": "lang-go",
       "description": "Go language guardrails: error handling, concurrency, style, build, and testing.",
       "availability": "paid-addon",
-      "latest": "0.2.4",
+      "latest": "0.2.5",
       "versions": [
         {
           "version": "0.1.0",
@@ -1338,6 +1391,12 @@
           "path": "packs/lang-go/lang-go-0.2.4.nebpack",
           "sha256": "877e0f8de7cae48c0ba6bea5e990ee87e11cbfc4c0a96b75dabed0dc6215f941",
           "size": 18427
+        },
+        {
+          "version": "0.2.5",
+          "path": "packs/lang-go/lang-go-0.2.5.nebpack",
+          "sha256": "03b64c1cdad7fd6afef67cbc73d732a616d4b56a57077515073eb0a9e1868525",
+          "size": 18794
         }
       ]
     },
