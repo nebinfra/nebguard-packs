@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T21:00:13Z",
+  "generatedAt": "2026-10-28T11:57:58Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -64,7 +64,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.22",
+      "latest": "0.2.23",
       "versions": [
         {
           "version": "0.1.0",
@@ -210,6 +210,16 @@
           "path": "packs/agent-session-core/agent-session-core-0.2.22.nebpack",
           "sha256": "3a6eb9e5ed86c9f057726313b3d311e1504ffa61f1d26e5e6c3a6cc38b36e070",
           "size": 140359,
+          "minEngine": "5.40.0",
+          "engineIds": [
+            "list_skip"
+          ]
+        },
+        {
+          "version": "0.2.23",
+          "path": "packs/agent-session-core/agent-session-core-0.2.23.nebpack",
+          "sha256": "b2918b7df6bd73f0677688085426d492d6c273e93ae5be656b8625e3c10416eb",
+          "size": 141477,
           "minEngine": "5.40.0",
           "engineIds": [
             "list_skip"
@@ -1056,7 +1066,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.23",
+      "latest": "0.3.24",
       "versions": [
         {
           "version": "0.1.0",
@@ -1213,6 +1223,17 @@
           "path": "packs/git-workflow/git-workflow-0.3.23.nebpack",
           "sha256": "93dda22e2dbeec30844faeabef56a6b6df3d004f198744217d2a86c6a0bbd66c",
           "size": 83080,
+          "minEngine": "5.40.0",
+          "engineIds": [
+            "command_scope",
+            "merge_train_protection"
+          ]
+        },
+        {
+          "version": "0.3.24",
+          "path": "packs/git-workflow/git-workflow-0.3.24.nebpack",
+          "sha256": "3675e3c19babf6bb7799e4864303abfec444c3366c850bedc6be9448b49e7ff1",
+          "size": 84857,
           "minEngine": "5.40.0",
           "engineIds": [
             "command_scope",
@@ -2162,7 +2183,7 @@
       "sku": "supply-chain",
       "description": "Supply-chain security: dependency, audit, and package safety.",
       "availability": "paid-base",
-      "latest": "0.2.7",
+      "latest": "0.2.8",
       "versions": [
         {
           "version": "0.1.0",
@@ -2218,6 +2239,16 @@
           "path": "packs/supply-chain/supply-chain-0.2.7.nebpack",
           "sha256": "11785ddf175a6fbd28e93887a6301f87265438777ecc101aa2d9ee37e902f499",
           "size": 26334,
+          "minEngine": "5.40.0",
+          "engineIds": [
+            "command_scope"
+          ]
+        },
+        {
+          "version": "0.2.8",
+          "path": "packs/supply-chain/supply-chain-0.2.8.nebpack",
+          "sha256": "ed8441efbbdf209716566afd57d0a6112af8d4ab67bf998e073d83879f2e0418",
+          "size": 26903,
           "minEngine": "5.40.0",
           "engineIds": [
             "command_scope"
