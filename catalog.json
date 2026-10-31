@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T20:35:02Z",
+  "generatedAt": "2026-10-31T02:12:44Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -64,7 +64,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.23",
+      "latest": "0.2.24",
       "versions": [
         {
           "version": "0.1.0",
@@ -224,6 +224,17 @@
           "engineIds": [
             "list_skip"
           ]
+        },
+        {
+          "version": "0.2.24",
+          "path": "packs/agent-session-core/agent-session-core-0.2.24.nebpack",
+          "sha256": "b3877d9abd1535ffec18fc2700ec1986a41ccd5e37e5c919a01104bd9a550cbe",
+          "size": 141523,
+          "minEngine": "5.44.0",
+          "engineIds": [
+            "content_trigger",
+            "list_skip"
+          ]
         }
       ]
     },
@@ -232,7 +243,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.21",
+      "latest": "0.2.22",
       "versions": [
         {
           "version": "0.1.0",
@@ -378,6 +389,18 @@
           "engineIds": [
             "command_scope",
             "list_skip"
+          ]
+        },
+        {
+          "version": "0.2.22",
+          "path": "packs/ai-governance/ai-governance-0.2.22.nebpack",
+          "sha256": "f217ff0bf9dead186b9ce6cfb79eb6c907c689bdf3546899a1f0a07d0aa4555e",
+          "size": 92827,
+          "minEngine": "5.44.0",
+          "engineIds": [
+            "command_scope",
+            "content_trigger",
+            "train_integrator_skip"
           ]
         }
       ]
@@ -1077,7 +1100,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.25",
+      "latest": "0.3.26",
       "versions": [
         {
           "version": "0.1.0",
@@ -1262,6 +1285,18 @@
             "list_skip",
             "merge_train_protection"
           ]
+        },
+        {
+          "version": "0.3.26",
+          "path": "packs/git-workflow/git-workflow-0.3.26.nebpack",
+          "sha256": "d8f6b92e31c5c1892bb5c061db332f0563653e7d9f484fc0eb2a9b774de98bed",
+          "size": 87411,
+          "minEngine": "5.44.0",
+          "engineIds": [
+            "command_scope",
+            "merge_train_protection",
+            "train_integrator_skip"
+          ]
         }
       ]
     },
@@ -1270,7 +1305,7 @@
       "sku": "gitops-argocd",
       "description": "GitOps and ArgoCD delivery safety: declarative enforcement and sync-lifecycle guards.",
       "availability": "free",
-      "latest": "0.2.11",
+      "latest": "0.2.12",
       "versions": [
         {
           "version": "0.1.0",
@@ -1362,6 +1397,17 @@
           "engineIds": [
             "command_scope",
             "list_skip"
+          ]
+        },
+        {
+          "version": "0.2.12",
+          "path": "packs/gitops-argocd/gitops-argocd-0.2.12.nebpack",
+          "sha256": "efcc5268cb59e4deddad44c852d3faf07930ae0a1be47a75ac40aaddffdf5819",
+          "size": 35220,
+          "minEngine": "5.44.0",
+          "engineIds": [
+            "command_scope",
+            "train_integrator_skip"
           ]
         }
       ]
