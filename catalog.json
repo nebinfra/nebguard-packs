@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T02:12:44Z",
+  "generatedAt": "2026-10-31T06:24:14Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -64,7 +64,7 @@
       "sku": "agent-session-core",
       "description": "Agent-session governance: the autonomy, stop, compaction, evidence, and lifecycle safety-nets for autonomous AI agents.",
       "availability": "free",
-      "latest": "0.2.24",
+      "latest": "0.2.25",
       "versions": [
         {
           "version": "0.1.0",
@@ -235,6 +235,18 @@
             "content_trigger",
             "list_skip"
           ]
+        },
+        {
+          "version": "0.2.25",
+          "path": "packs/agent-session-core/agent-session-core-0.2.25.nebpack",
+          "sha256": "429be2451de398152292de49864be1ed6273e41326ef50d4867ede9d24757e25",
+          "size": 141736,
+          "minEngine": "5.44.0",
+          "engineIds": [
+            "content_trigger",
+            "list_skip",
+            "repository_worktree"
+          ]
         }
       ]
     },
@@ -243,7 +255,7 @@
       "sku": "ai-governance",
       "description": "AI governance policy: mode enforcement, scope, methodology, session, and transparency for licensed tenants.",
       "availability": "paid-base",
-      "latest": "0.2.22",
+      "latest": "0.2.23",
       "versions": [
         {
           "version": "0.1.0",
@@ -398,6 +410,19 @@
           "size": 92827,
           "minEngine": "5.44.0",
           "engineIds": [
+            "command_scope",
+            "content_trigger",
+            "train_integrator_skip"
+          ]
+        },
+        {
+          "version": "0.2.23",
+          "path": "packs/ai-governance/ai-governance-0.2.23.nebpack",
+          "sha256": "ed955f5e29fad9c8e7fe243c61cc1deb2f9c44ce9f34e53d2433f4b4a997ec96",
+          "size": 93401,
+          "minEngine": "5.44.0",
+          "engineIds": [
+            "agent_launch_prompt",
             "command_scope",
             "content_trigger",
             "train_integrator_skip"
