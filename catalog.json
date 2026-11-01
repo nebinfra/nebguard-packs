@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T14:57:09Z",
+  "generatedAt": "2026-11-01T18:46:26Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -1125,7 +1125,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.27",
+      "latest": "0.3.28",
       "versions": [
         {
           "version": "0.1.0",
@@ -1328,6 +1328,18 @@
           "path": "packs/git-workflow/git-workflow-0.3.27.nebpack",
           "sha256": "af5f63b15951a84df9137b4c327d250889ead6015552409d15fe31c41770d489",
           "size": 87907,
+          "minEngine": "5.44.0",
+          "engineIds": [
+            "command_scope",
+            "merge_train_protection",
+            "train_integrator_skip"
+          ]
+        },
+        {
+          "version": "0.3.28",
+          "path": "packs/git-workflow/git-workflow-0.3.28.nebpack",
+          "sha256": "845316995f789161faab7e214b2d7962fe01b9168e57e5226e4e859d9a6a1f2e",
+          "size": 90092,
           "minEngine": "5.44.0",
           "engineIds": [
             "command_scope",
