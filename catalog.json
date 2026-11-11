@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T04:05:37Z",
+  "generatedAt": "2026-11-11T11:03:05Z",
   "packs": [
     {
       "id": "adherence-core",
@@ -449,7 +449,7 @@
       "sku": "aws-cloud",
       "description": "AWS cloud guardrails: IAM, encryption, storage, secrets, and cost.",
       "availability": "free",
-      "latest": "0.2.8",
+      "latest": "0.2.9",
       "versions": [
         {
           "version": "0.1.0",
@@ -510,6 +510,12 @@
           "path": "packs/aws-cloud/aws-cloud-0.2.8.nebpack",
           "sha256": "bd8434515cb2b2d21275d4def8c9fb98abbb7de570a3ca0da4e6a840bbae2934",
           "size": 42911
+        },
+        {
+          "version": "0.2.9",
+          "path": "packs/aws-cloud/aws-cloud-0.2.9.nebpack",
+          "sha256": "e7fc525a571a19b40f7eaddbc7ae421b22de2c8bfb00d690e48b28a341ec5905",
+          "size": 43123
         }
       ]
     },
@@ -722,7 +728,7 @@
       "sku": "compliance-frameworks",
       "description": "Compliance frameworks: SOC2, NIST, and logging/audit mappings.",
       "availability": "paid-base",
-      "latest": "0.2.7",
+      "latest": "0.2.8",
       "versions": [
         {
           "version": "0.1.0",
@@ -777,6 +783,12 @@
           "path": "packs/compliance-frameworks/compliance-frameworks-0.2.7.nebpack",
           "sha256": "cc135e01b752a20bf19551cb3cc7878bed8fbd420305fb54f197500108ffb13e",
           "size": 21521
+        },
+        {
+          "version": "0.2.8",
+          "path": "packs/compliance-frameworks/compliance-frameworks-0.2.8.nebpack",
+          "sha256": "4b52357f49ff7f043b99d126f9263c268e14b99b8e838dcb115e7c27ad35be4b",
+          "size": 21577
         }
       ]
     },
@@ -914,7 +926,7 @@
       "sku": "data-protection",
       "description": "Data protection: PII handling, encryption at rest, and retention.",
       "availability": "paid-base",
-      "latest": "0.2.8",
+      "latest": "0.2.9",
       "versions": [
         {
           "version": "0.1.0",
@@ -975,6 +987,12 @@
           "path": "packs/data-protection/data-protection-0.2.8.nebpack",
           "sha256": "c726810b89596666a36cc0ae74766ee26920598718ae8888860b620535c26e05",
           "size": 29494
+        },
+        {
+          "version": "0.2.9",
+          "path": "packs/data-protection/data-protection-0.2.9.nebpack",
+          "sha256": "ffd2a0956f038e136a8fecefcb741959fd3c6e9e2cc20cfee6e535442a6648ae",
+          "size": 29584
         }
       ]
     },
@@ -1139,7 +1157,7 @@
       "sku": "git-workflow",
       "description": "Git workflow safety: commit, branch, monorepo, and destructive-operation guards.",
       "availability": "free",
-      "latest": "0.3.28",
+      "latest": "0.3.29",
       "versions": [
         {
           "version": "0.1.0",
@@ -1354,6 +1372,18 @@
           "path": "packs/git-workflow/git-workflow-0.3.28.nebpack",
           "sha256": "845316995f789161faab7e214b2d7962fe01b9168e57e5226e4e859d9a6a1f2e",
           "size": 90092,
+          "minEngine": "5.44.0",
+          "engineIds": [
+            "command_scope",
+            "merge_train_protection",
+            "train_integrator_skip"
+          ]
+        },
+        {
+          "version": "0.3.29",
+          "path": "packs/git-workflow/git-workflow-0.3.29.nebpack",
+          "sha256": "ba17d95e8571d177e63d099084f05cffa21e63e2b9710b0034b2fc87874dbd02",
+          "size": 91871,
           "minEngine": "5.44.0",
           "engineIds": [
             "command_scope",
